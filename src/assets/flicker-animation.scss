@@ -1,0 +1,61 @@
+$yellowLight: rgb(231, 203, 143);
+
+.name {
+  font-size: 7vh;
+  letter-spacing:10px;
+  color: black;
+  z-index: 999;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0px 0px 29px $yellowLight
+}
+
+.blink {
+  animation: letter-flicker 2s linear infinite;
+  padding: 0;
+}
+
+.name-divider {
+  margin-left: 20px;
+}
+
+@keyframes letter-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+  2% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+  4% {
+    opacity:1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+
+  19% {
+    opacity:1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+  21% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+  23% {
+    opacity:1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+  
+  80% {
+    opacity:1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+  83% {
+    opacity:0.4;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+  87% {
+    opacity:1;
+    text-shadow: 0px 0px 29px $yellowLight;
+  }
+}
