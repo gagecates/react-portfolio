@@ -1,0 +1,104 @@
+$yellowLight: rgb(231, 203, 143);
+
+
+.skills {
+  background-color: white;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+  min-height: 30vh;
+}
+
+.bar {
+  display: flex;
+  background-color: rgb(245, 243, 243);
+  height: 40px;
+  width: 100%;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 15px;
+}
+
+.bar-label {
+  display: inline-flex;
+  min-width: 100px;
+  background-color: rgb(245, 243, 243);
+  margin-left: 10px;
+  align-items: center;
+}
+
+.bar-fill {
+  background-color: $yellowLight;
+  transition: 2.5s ease;
+  transition-delay: .7s;
+}
+
+.education-container {
+  width: 100%;
+  min-height: 50vh;
+}
+
+.course-container {
+  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  margin-bottom: 80px;
+  padding: 15px;
+  border-top: 2px solid $yellowLight;
+  border-left: 4px solid $yellowLight;
+  background-color: rgb(245, 243, 243);
+}
+
+.course-source {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.course-title {
+  margin: 0;
+}
+
+.course-description {
+  text-align: left;
+}
+
+ul {
+  padding: 0;
+}
+
+.blue {
+  color: blue;
+}
+
+.course-pic {
+  display: inline;
+  width: 20%;
+}
+
+.course-pic img {
+  width: 100%;
+}
+
+.course-pic img:hover{
+  -webkit-transform: scale(6);
+  -moz-transform: scale(6);
+  -ms-transform: scale(6);
+  -o-transform: scale(6);
+  position: relative;
+  right: 350px;
+}
+
+.title-info {
+  text-align: left;
+}

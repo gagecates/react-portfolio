@@ -1,0 +1,25 @@
+$yellowLight: rgb(231, 203, 143);
+
+.header-nav {
+  background-color: black;
+  display: flex;
+  z-index: 999 !important;
+  justify-content: right;
+  width: 100%;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-link {
+  font-size: 2.5vh;
+  margin: 10px;
+  color: $yellowLight;
+}
+
+.header-link:hover {
+  cursor: pointer;
+}

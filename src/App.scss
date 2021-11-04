@@ -1,51 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+$yellowLight: rgb(231, 203, 143);
+
 .App {
   text-align: center;
   background-color: black;
 }
 
-.App-header {
-  background-color: #000000;
-  min-height: 3vh;
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
+
+.section-content {
+  width: 50vw;
+}
+
+.header-text {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4vh;
+  margin-top: 7vh;
+}
+
+.primary-color {
+  color: $yellowLight;
+}
+
+.white {
   color: white;
 }
 
-.header-nav {
-  color: #61dafb;
+li{
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 10px;
 }
 
-section {
-  height: 100vh;
-}
-
-.home {
-  text-align: center;
-  background: url("./assets/lightbulb.jpg");
-  background-position: center;
+ul li::before {
+  content: '';
+  min-height: 12px;
+  min-width: 12px;
+  background-image: url('/assets/images/light-bulb-icon.png');
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-color: black;
-  background-blend-mode: exclusion;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-animation: home 15s ; /* Chrome, Safari, Opera */
-  animation: home 15s ;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes home {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-/* Standard syntax */
-@keyframes home {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  margin-right: 10px;
+  margin-top: 5px;
 }
