@@ -1,0 +1,51 @@
+$yellowLight: rgb(231, 203, 143);
+$grayLight: rgb(245, 243, 243);
+
+.contact {
+  width: 100%;
+  background-color: $grayLight;
+}
+
+.contact-info h3 {
+  color: $yellowLight;
+  text-shadow: .05px .05px black;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 75%;
+  min-width: 50%;
+}
+
+input {
+  background-color: white;
+  border: 2px solid $yellowLight;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Kalam', cursive;
+}
+
+.contact-message {
+  min-height: 150px;
+  font-family: 'Kalam', cursive;
+  background-color: white;
+  border: 2px solid $yellowLight;
+  padding: 10px;
+}
+
+.submit-btn {
+  width: 75%;
+  margin: 20px auto;
+  border-radius: 10px;
+  color: black;
+  background-color: $yellowLight;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: white;
+  border: 2px solid $yellowLight;
+}

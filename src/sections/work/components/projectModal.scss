@@ -21,14 +21,12 @@ $grayLight: rgb(245, 243, 243);
 }
 
 .project-modal-title {
-  min-width: 25%;
   text-align: left;
   color: black;
   position: relative;
   font-size: 30px;
   font-family: 'Kalam', cursive;
   margin: 0px;
-  border-bottom: 2px solid $yellowLight;
 }
 
 .project-modal-image {
@@ -46,7 +44,19 @@ $grayLight: rgb(245, 243, 243);
 .project-modal-btn-container {
   position: absolute;
   bottom: 20px;
+}
 
+.project-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2px solid $yellowLight;
+}
+
+.project-languages {
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 .project-modal-btn {
@@ -55,6 +65,7 @@ $grayLight: rgb(245, 243, 243);
   padding: 10px;
   margin-right: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .project-modal-btn:hover {

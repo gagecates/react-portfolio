@@ -7,6 +7,8 @@ import Nav from "./sections/nav"
 import AboutSection from "./sections/about"
 import WorkSection from "./sections/work"
 import SkillsSection from "./sections/skills"
+import ContactSection from "./sections/contact"
+import Footer from "./sections/footer"
 
 import { useInView } from 'react-intersection-observer'
 
@@ -26,6 +28,8 @@ function App() {
       <AboutSection/>
       <WorkSection/>
       <SkillsSection/>
+      <ContactSection/>
+      <Footer/>
     </div>
   );
 }

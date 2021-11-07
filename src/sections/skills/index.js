@@ -9,11 +9,11 @@ import "./skills.scss"
 export default function SkillsSection() {
 
   const languages = [
-    {"label": "Python", "percentage": "80"},
-    {"label": "Django", "percentage": "70"},
-    {"label": "JavaScript", "percentage": "80"},
-    {"label": "Node.js", "percentage": "60"},
+    {"label": "Python", "percentage": "84"},
+    {"label": "JavaScript", "percentage": "82"},
     {"label": "React", "percentage": "80"},
+    {"label": "Django", "percentage": "70"},
+    {"label": "Node.js", "percentage": "60"},
     {"label": "Redux", "percentage": "60"},
     {"label": "PostgreSQL", "percentage": "50"},
   ]

@@ -74,7 +74,7 @@ export default function WorkSection() {
   const projects = [
     {
       "name": "Student Search",
-      "languages": ["React", "Firebase"],
+      "languages": "React",
       "image": StudentSearchImage,
       "color": "#1a75ff",
       "background": StudentSearchBackground,
@@ -84,7 +84,7 @@ export default function WorkSection() {
     },
     {
       "name": "Let Me Check My Schedule",
-      "languages": ["React", "Firebase"],
+      "languages": "React / Firebase",
       "image": AppointmentsImage,
       "color": "#1a75ff",
       "background": AppointmentsBackground,
@@ -94,7 +94,7 @@ export default function WorkSection() {
     },
     {
       "name": "SkyScanner",
-      "languages": ["Next.js", "Vercel"],
+      "languages": "Next.js / Vercel",
       "image": SkyScannerImage,
       "color": "#1a75ff",
       "background": SkyScannerBackground,
@@ -104,7 +104,7 @@ export default function WorkSection() {
     },
     {
     "name": "Grid View",
-    "languages": ["React", "Flask"],
+    "languages": "React / Flask",
     "image": GridViewImage,
     "color": "#1a75ff",
     "background": GridViewBackground,
@@ -114,33 +114,33 @@ export default function WorkSection() {
     },
     {
       "name": "Trivia",
-      "languages": ["React", "Flask"],
+      "languages": "React / Flask",
       "image": TriviaImage,
       "color": "#e60000",
       "background": TriviaBackground,
-      "summary": "Trivia is a fun and classic game to test your knowledge of a variety of categories. Python and SQLAlchemy bring this application together on a FLask backend.",
-      "site": "",
-      "repo": ""
+      "summary": "Trivia is a fun and classic game to test your knowledge of a variety of categories. Python and SQLAlchemy bring this application together on a Flask backend.",
+      "site": "https://trivia-app-gmc.herokuapp.com/",
+      "repo": "https://github.com/gagecates/Trivia_API"
     },
     {
       "name": "Macros Yo!",
-      "languages": ["HTML", "Flask"],
+      "languages": "HTML / Flask",
       "image": MacrosYoImage,
       "color": "#00cc00",
       "background": MacrosYoBackground,
       "summary": "Macros Yo is a way for users to track their consumed macros. The database backed application allows users to enter and save foods while providing the nutritional macro break down. Authentication is provided via Auth 0.",
-      "site": "",
-      "repo": ""
+      "site": "https://gage-heroku-app.herokuapp.com/",
+      "repo": "https://github.com/gagecates/FSND_Capstone"
     },
     {
       "name": "Where To?",
-      "languages": ["Js", "Node.js"],
+      "languages": "Js / Node.js",
       "image": WhereToImage,
       "color": "#ffff00",
       "background": WhereToBackground,
       "summary": "Where To is a usefull resource for users to get a projected forecast for a desired location. The application utilizes multiple API's in order to gather the destination coordinates and weather forecast according to the arrival date.",
-      "site": "",
-      "repo": ""
+      "site": "https://where-to-gmc.herokuapp.com/",
+      "repo": "https://github.com/gagecates/Travel-App"
     }
   ]
 
@@ -149,7 +149,6 @@ export default function WorkSection() {
     setProjectModalVisible(true)
     console.log(project)
   }
-
 
 
   return (
