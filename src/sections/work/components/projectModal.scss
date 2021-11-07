@@ -1,0 +1,64 @@
+$yellowLight: rgb(231, 203, 143);
+$grayLight: rgb(245, 243, 243);
+
+.project-modal-container {
+  z-index: 999;
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  width: 40%;
+  height: 70%;
+  background-color: white;
+  text-align: left;
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.project-modal-title {
+  min-width: 25%;
+  text-align: left;
+  color: black;
+  position: relative;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+  margin: 0px;
+  border-bottom: 2px solid $yellowLight;
+}
+
+.project-modal-image {
+  width: 100%;
+  height: 65%;
+  background-color: black;
+  background-size: cover;
+  border-bottom: 4px solid black;
+}
+
+.project-modal-bottom {
+  padding: 15px;
+}
+
+.project-modal-btn-container {
+  position: absolute;
+  bottom: 20px;
+
+}
+
+.project-modal-btn {
+  background-color: $yellowLight;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.project-modal-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid $yellowLight;
+}
