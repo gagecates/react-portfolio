@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 // project images
+import Connect4Image from "../../assets/images/connect4-image.jpeg"
 import GridViewImage from "../../assets/images/grid-view-landing.png"
 import TriviaImage from "../../assets/images/trivia-landing.jpg"
 import MacrosYoImage from "../../assets/images/macros-yo-project.jpg"
@@ -10,6 +11,7 @@ import SkyScannerImage from "../../assets/images/sky-scanner-project.jpeg"
 import StudentSearchImage from "../../assets/images/student-search-project.jpeg"
 
 // project background images
+import Connect4Background from "../../assets/images/connect4-home.png"
 import GridViewBackground from "../../assets/images/grid-view-home.png"
 import TriviaBackground from "../../assets/images/trivia-home.png"
 import MacrosYoBackground from "../../assets/images/macros-yo-home.png"
@@ -72,6 +74,16 @@ export default function WorkSection() {
   const [selected, setSelected] = useState(companies[0])
 
   const projects = [
+    {
+      "name": "Connect 4",
+      "languages": "React",
+      "image": Connect4Image,
+      "color": "#1a75ff",
+      "background": Connect4Background,
+      "summary": "This is a simple React app that plays a classic game of Connect 4! Deployed on GitHub Pages.",
+      "site": "https://gagecates.github.io/connect-four/",
+      "repo": "https://github.com/gagecates/connect-four"
+    },
     {
       "name": "Student Search",
       "languages": "React",
